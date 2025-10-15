@@ -63,7 +63,7 @@ const defaultOptions = {
 };
 
 describe.each(ALERT_PROPS)("%s prop", prop => {
-  it(`should pass ${prop.label} to ElAlert`, async () => {
+  it(`should pass ${prop.label} to HtAlert`, async () => {
     const testValue = prop.value;
     const wrapper = mount(HtAlert, {
       props: { [prop.label]: testValue },
@@ -76,7 +76,7 @@ describe.each(ALERT_PROPS)("%s prop", prop => {
 });
 
 describe.each(ALERT_EMITS)("%s event", event => {
-  it(`should emit ${event} when ElAlert triggers it`, async () => {
+  it(`should emit ${event} when HtAlert triggers it`, async () => {
     const wrapper = mount(HtAlert, {
       ...defaultOptions
     });

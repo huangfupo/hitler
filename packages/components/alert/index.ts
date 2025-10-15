@@ -8,4 +8,4 @@ export default HtAlert;
 
 export * from "./src/alert";
 
-export type { AlertInstance } from "./src/instance";
+export type AlertInstance = InstanceType<typeof Alert> & unknown;
