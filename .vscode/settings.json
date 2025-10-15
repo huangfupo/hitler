@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true, // 保存时自动格式化
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认格式化工具
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, .npmrc, changelog.config.json, .gitignore, commitlint.config.*",
+    "tsconfig.json": "tsconfig.*.json"
+  }
+}

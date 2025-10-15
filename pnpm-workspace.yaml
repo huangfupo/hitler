@@ -1,0 +1,7 @@
+# pnpm-workspace.yaml
+# This file defines the workspace configuration for pnpm.
+# It specifies the packages that are part of the monorepo.
+packages:
+  - packages/*
+  - play
+  - docs/*

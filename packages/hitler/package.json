@@ -1,0 +1,71 @@
+{
+  "name": "hitler",
+  "version": "1.0.0",
+  "description": "A Component Library for Vue 3",
+  "keywords": [
+    "hitler",
+    "element-plus",
+    "element",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "homepage": "http://gitlab.giikin.cn/hitler/hitler",
+  "bugs": {
+    "url": "http://gitlab.giikin.cn/hitler/hitler/issues"
+  },
+  "license": "MIT",
+  "main": "lib/hitler/index.js",
+  "module": "es/hitler/index.mjs",
+  "types": "es/hitler/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/hitler/index.d.ts",
+      "import": "./es/hitler/index.mjs",
+      "require": "./lib/hitler/index.js"
+    },
+    "./global": {
+      "types": "./global.d.ts"
+    },
+    "./es": {
+      "types": "./es/hitler/index.d.ts",
+      "import": "./es/hitler/index.mjs"
+    },
+    "./lib": {
+      "types": "./lib/hitler/index.d.ts",
+      "require": "./lib/hitler/index.js"
+    },
+    "./*": "./*"
+  },
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "repository": {
+    "type": "git",
+    "url": "git+http://gitlab.giikin.cn/hitler/hitler.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "style": "dist/index.css",
+  "sideEffects": [
+    "dist/*",
+    "theme-chalk/**/*.css",
+    "theme-chalk/src/**/*.scss",
+    "es/components/*/style/*",
+    "lib/components/*/style/*"
+  ],
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "vetur": {
+    "tags": "tags.json",
+    "attributes": "attributes.json"
+  },
+  "web-types": "web-types.json",
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ]
+}

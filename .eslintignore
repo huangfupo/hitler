@@ -1,0 +1,10 @@
+*.sh
+node_modules
+.vscode
+.idea
+dist
+/public
+/docs
+.husky
+.local
+pnpm-lock.yaml

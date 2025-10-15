@@ -1,0 +1,10 @@
+{
+  "name": "@hitler/directives",
+  "version": "1.0.0",
+  "description": "Hitler directives",
+  "license": "MIT",
+  "main": "index.ts",
+  "module": "index.ts",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js"
+}

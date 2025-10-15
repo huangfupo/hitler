@@ -1,0 +1,13 @@
+{
+  "name": "@hitler/components",
+  "version": "1.0.0",
+  "description": "all components are settled here",
+  "main": "index.ts",
+  "module": "index.ts",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "types": "index.d.ts"
+}

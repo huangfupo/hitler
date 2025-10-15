@@ -1,0 +1,9 @@
+{
+  "name": "@hitler/utils",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts",
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
