@@ -1,5 +1,4 @@
 import { withInstall, withNoopInstall } from "@hitler/utils";
-
 import type { SFCWithInstall } from "@hitler/utils";
 
 import Anchor from "./src/anchor.vue";
@@ -13,9 +12,10 @@ export const HtAnchor: SFCWithInstall<typeof Anchor> & {
 
 export const HtAnchorLink: SFCWithInstall<typeof AnchorLink> = withNoopInstall(AnchorLink);
 
-export default HtAnchor;
-
 export type AnchorInstance = InstanceType<typeof Anchor> & unknown;
 export type AnchorLinkInstance = InstanceType<typeof AnchorLink> & unknown;
 
+export default HtAnchor;
+
 export * from "./src/anchor";
+export * from "./src/anchor-link";
