@@ -26,6 +26,9 @@ importers:
       '@hitler/utils':
         specifier: workspace:*
         version: link:packages/utils
+      dayjs:
+        specifier: ^1.11.18
+        version: 1.11.18
       element-plus:
         specifier: ^2.11.3
         version: 2.11.4(vue@3.5.22(typescript@5.9.3))

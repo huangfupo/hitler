@@ -4,7 +4,7 @@
     "composite": true,
     "jsx": "preserve",
     "lib": ["ES2018", "DOM", "DOM.Iterable"],
-    "types": ["unplugin-vue-macros/macros-global", "@vue/runtime-core", "vite/client", "element-plus/global"],
+    "types": ["unplugin-vue-macros/macros-global", "@vue/runtime-core", "vite/client", "element-plus/global", "dayjs"],
     "skipLibCheck": true
   },
   "include": ["packages/utils/vue3.3.polyfill.ts", "packages", "typings/env.d.ts"],

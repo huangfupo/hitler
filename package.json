@@ -25,6 +25,7 @@
     "@hitler/directives": "workspace:*",
     "@hitler/hooks": "workspace:*",
     "@hitler/utils": "workspace:*",
+    "dayjs": "^1.11.18",
     "element-plus": "^2.11.3",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
