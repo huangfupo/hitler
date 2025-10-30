@@ -22,3 +22,27 @@ export * from "./config-provider";
 export * from "./container";
 export * from "./countdown";
 export * from "./date-picker";
+export * from "./descriptions";
+export * from "./dialog";
+export * from "./divider";
+export * from "./drawer";
+export * from "./dropdown";
+export * from "./empty";
+export * from "./form";
+export * from "./icon";
+export * from "./image";
+export * from "./image-viewer";
+export * from "./input";
+export * from "./input-number";
+export * from "./input-tag";
+export * from "./link";
+export * from "./mention";
+export * from "./menu";
+export * from "./page-header";
+export * from "./select";
+
+// plugins
+export * from "./loading";
+export * from "./message";
+export * from "./message-box";
+export * from "./notification";

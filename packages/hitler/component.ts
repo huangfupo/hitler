@@ -22,6 +22,24 @@ import { HtColorPicker } from "@hitler/components/color-picker";
 import { HtConfigProvider } from "@hitler/components/config-provider";
 import { HtCountdown } from "@hitler/components/countdown";
 import { HtDatePicker } from "@hitler/components/date-picker";
+import { HtDescriptions, HtDescriptionsItem } from "@hitler/components/descriptions";
+import { HtDialog } from "@hitler/components/dialog";
+import { HtDivider } from "@hitler/components/divider";
+import { HtDrawer } from "@hitler/components/drawer";
+import { HtDropdown, HtDropdownItem, HtDropdownMenu } from "@hitler/components/dropdown";
+import { HtEmpty } from "@hitler/components/empty";
+import { HtForm, HtFormItem } from "@hitler/components/form";
+import { HtIcon } from "@hitler/components/icon";
+import { HtImage } from "@hitler/components/image";
+import { HtImageViewer } from "@hitler/components/image-viewer";
+import { HtInput } from "@hitler/components/input";
+import { HtInputNumber } from "@hitler/components/input-number";
+import { HtInputTag } from "@hitler/components/input-tag";
+import { HtLink } from "@hitler/components/link";
+import { HtMention } from "@hitler/components/mention";
+import { HtMenu, HtMenuItem, HtMenuItemGroup, HtSubMenu } from "@hitler/components/menu";
+import { HtSelect, HtOption, HtOptionGroup } from "@hitler/components/select";
+import { HtPageHeader } from "@hitler/components/page-header";
 
 import type { Plugin } from "vue";
 
@@ -60,5 +78,32 @@ export default [
   HtColorPicker,
   HtConfigProvider,
   HtCountdown,
-  HtDatePicker
+  HtDatePicker,
+  HtDescriptions,
+  HtDescriptionsItem,
+  HtDialog,
+  HtDivider,
+  HtDrawer,
+  HtDropdown,
+  HtDropdownItem,
+  HtDropdownMenu,
+  HtEmpty,
+  HtForm,
+  HtFormItem,
+  HtIcon,
+  HtImage,
+  HtImageViewer,
+  HtInput,
+  HtInputNumber,
+  HtInputTag,
+  HtLink,
+  HtMention,
+  HtMenu,
+  HtMenuItem,
+  HtMenuItemGroup,
+  HtSubMenu,
+  HtSelect,
+  HtOption,
+  HtOptionGroup,
+  HtPageHeader
 ] as Plugin[];

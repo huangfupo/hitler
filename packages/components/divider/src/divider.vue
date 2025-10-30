@@ -1,23 +1,22 @@
 <template>
-  <el-footer ref="elRef" v-bind="props">
+  <el-divider ref="elRef" v-bind="props">
     <template v-if="slots.default" #default="slotValue">
       <slot v-bind="slotValue" />
     </template>
-  </el-footer>
+  </el-divider>
 </template>
 <script lang="ts" setup>
 import { ref, useSlots } from "vue";
-import { footerProps } from "./props";
-import type { FooterInstance } from "element-plus";
+import { dividerProps } from "./divider";
+import { DividerInstance } from "element-plus";
 
 defineOptions({
-  name: "HtFooter"
+  name: "HtDivider"
 });
-
 const slots = useSlots();
-const props = defineProps(footerProps);
+const props = defineProps(dividerProps);
 
-const elRef = ref<FooterInstance>();
+const elRef = ref<DividerInstance>();
 defineExpose({
   elRef
 });

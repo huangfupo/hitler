@@ -1,13 +1,13 @@
 <template>
   <el-countdown ref="elRef" v-bind="props" v-on="elEvents">
-    <template v-if="slots.title" #title>
-      <slot name="title" />
+    <template v-if="slots.title" #title="slotValue">
+      <slot name="title" v-bind="slotValue" />
     </template>
-    <template v-if="slots.prefix" #prefix>
-      <slot name="prefix" />
+    <template v-if="slots.prefix" #prefix="slotValue">
+      <slot name="prefix" v-bind="slotValue" />
     </template>
-    <template v-if="slots.suffix" #suffix>
-      <slot name="suffix" />
+    <template v-if="slots.suffix" #suffix="slotValue">
+      <slot name="suffix" v-bind="slotValue" />
     </template>
   </el-countdown>
 </template>
