@@ -38,8 +38,26 @@ import { HtInputTag } from "@hitler/components/input-tag";
 import { HtLink } from "@hitler/components/link";
 import { HtMention } from "@hitler/components/mention";
 import { HtMenu, HtMenuItem, HtMenuItemGroup, HtSubMenu } from "@hitler/components/menu";
-import { HtSelect, HtOption, HtOptionGroup } from "@hitler/components/select";
 import { HtPageHeader } from "@hitler/components/page-header";
+import { HtPagination } from "@hitler/components/pagination";
+import { HtPopconfirm } from "@hitler/components/popconfirm";
+import { HtPopover } from "@hitler/components/popover";
+import { HtPopper } from "@hitler/components/popper";
+import { HtProgress } from "@hitler/components/progress";
+import { HtRadio, HtRadioButton, HtRadioGroup } from "@hitler/components/radio";
+import { HtRate } from "@hitler/components/rate";
+import { HtResult } from "@hitler/components/result";
+import { HtRow } from "@hitler/components/row";
+import { HtScrollbar } from "@hitler/components/scrollbar";
+import { HtSegmented } from "@hitler/components/segmented";
+import { HtSelect, HtOption, HtOptionGroup } from "@hitler/components/select";
+import { HtSelectV2 } from "@hitler/components/select-v2";
+import { HtSkeleton, HtSkeletonItem } from "@hitler/components/skeleton";
+import { HtSlider } from "@hitler/components/slider";
+import { HtSpace } from "@hitler/components/space";
+import { HtStatistic } from "@hitler/components/statistic";
+import { HtStep, HtSteps } from "@hitler/components/steps";
+import { HtSwitch } from "@hitler/components/switch";
 
 import type { Plugin } from "vue";
 
@@ -105,5 +123,27 @@ export default [
   HtSelect,
   HtOption,
   HtOptionGroup,
-  HtPageHeader
+  HtPageHeader,
+  HtPagination,
+  HtPopconfirm,
+  HtPopover,
+  HtPopper,
+  HtProgress,
+  HtRadio,
+  HtRadioButton,
+  HtRadioGroup,
+  HtRate,
+  HtResult,
+  HtRow,
+  HtScrollbar,
+  HtSegmented,
+  HtSelectV2,
+  HtSkeleton,
+  HtSkeletonItem,
+  HtSlider,
+  HtSpace,
+  HtStatistic,
+  HtSteps,
+  HtStep,
+  HtSwitch
 ] as Plugin[];

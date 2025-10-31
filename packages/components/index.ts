@@ -39,7 +39,25 @@ export * from "./link";
 export * from "./mention";
 export * from "./menu";
 export * from "./page-header";
+export * from "./pagination";
+export * from "./popconfirm";
+export * from "./popover";
+export * from "./popper";
+export * from "./progress";
+export * from "./radio";
+export * from "./rate";
+export * from "./result";
+export * from "./row";
+export * from "./scrollbar";
+export * from "./segmented";
 export * from "./select";
+export * from "./select-v2";
+export * from "./skeleton";
+export * from "./slider";
+export * from "./space";
+export * from "./statistic";
+export * from "./steps";
+export * from "./switch";
 
 // plugins
 export * from "./loading";
