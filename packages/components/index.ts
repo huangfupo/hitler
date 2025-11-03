@@ -58,6 +58,9 @@ export * from "./space";
 export * from "./statistic";
 export * from "./steps";
 export * from "./switch";
+export * from "./table";
+export * from "./table-v2";
+export * from "./tabs";
 
 // plugins
 export * from "./loading";

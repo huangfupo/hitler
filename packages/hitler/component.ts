@@ -58,6 +58,9 @@ import { HtSpace } from "@hitler/components/space";
 import { HtStatistic } from "@hitler/components/statistic";
 import { HtStep, HtSteps } from "@hitler/components/steps";
 import { HtSwitch } from "@hitler/components/switch";
+import { HtTable, HtTableColumn } from "@hitler/components/table";
+import { HtTableV2 } from "@hitler/components";
+import { HtTabs, HtTabPane } from "@hitler/components/tabs";
 
 import type { Plugin } from "vue";
 
@@ -145,5 +148,10 @@ export default [
   HtStatistic,
   HtSteps,
   HtStep,
-  HtSwitch
+  HtSwitch,
+  HtTabs,
+  HtTabPane,
+  HtTable,
+  HtTableColumn,
+  HtTableV2
 ] as Plugin[];
