@@ -59,8 +59,21 @@ import { HtStatistic } from "@hitler/components/statistic";
 import { HtStep, HtSteps } from "@hitler/components/steps";
 import { HtSwitch } from "@hitler/components/switch";
 import { HtTable, HtTableColumn } from "@hitler/components/table";
-import { HtTableV2 } from "@hitler/components";
+import { HtTableV2 } from "@hitler/components/table-v2";
 import { HtTabs, HtTabPane } from "@hitler/components/tabs";
+import { HtTag } from "@hitler/components/tag";
+import { HtText } from "@hitler/components/text";
+import { HtTimePicker } from "@hitler/components/time-picker";
+import { HtTimeSelect } from "@hitler/components/time-select";
+import { HtTimeline, HtTimelineItem } from "@hitler/components/timeline";
+import { HtTooltip } from "@hitler/components/tooltip";
+import { HtTour, HtTourStep } from "@hitler/components/tour";
+import { HtTransfer } from "@hitler/components/transfer";
+import { HtTree } from "@hitler/components/tree";
+import { HtTreeSelect } from "@hitler/components/tree-select";
+import { HtTreeV2 } from "@hitler/components/tree-v2";
+import { HtUpload } from "@hitler/components/upload";
+import { HtWatermark } from "@hitler/components/watermark";
 
 import type { Plugin } from "vue";
 
@@ -153,5 +166,20 @@ export default [
   HtTabPane,
   HtTable,
   HtTableColumn,
-  HtTableV2
+  HtTableV2,
+  HtTag,
+  HtText,
+  HtTimePicker,
+  HtTimeSelect,
+  HtTimeline,
+  HtTimelineItem,
+  HtTooltip,
+  HtTour,
+  HtTourStep,
+  HtTransfer,
+  HtTree,
+  HtTreeSelect,
+  HtTreeV2,
+  HtUpload,
+  HtWatermark
 ] as Plugin[];

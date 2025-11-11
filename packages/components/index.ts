@@ -61,6 +61,19 @@ export * from "./switch";
 export * from "./table";
 export * from "./table-v2";
 export * from "./tabs";
+export * from "./tag";
+export * from "./text";
+export * from "./time-picker";
+export * from "./time-select";
+export * from "./timeline";
+export * from "./tooltip";
+export * from "./tour";
+export * from "./transfer";
+export * from "./tree";
+export * from "./tree-select";
+export * from "./tree-v2";
+export * from "./upload";
+export * from "./watermark";
 
 // plugins
 export * from "./loading";
